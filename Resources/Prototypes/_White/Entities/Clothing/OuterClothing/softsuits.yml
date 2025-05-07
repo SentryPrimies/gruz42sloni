@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterHardsuitEngineerEVA
+  name: vacsuit
+  description: A lightweight vacsuit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  components:
+  - type: Sprite
+    sprite: _White/Clothing/OuterClothing/Suits/engi_eva.rsi
+  - type: Clothing
+    sprite: _White/Clothing/OuterClothing/Suits/engi_eva.rsi
+  - type: Tag
+    tags:
+    - SuitEVA
+    - MonkeyWearable
+    - WhitelistChameleon
+    - AllowLamiaHardsuit
+    - HidesHarpyWings
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.8
+        Radiation: 0.45
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
