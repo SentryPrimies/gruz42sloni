@@ -6,9 +6,9 @@
   description: A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+    sprite: _White/Clothing/OuterClothing/Vests/webvestsynd.rsi ##WD EDIT
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+    sprite: _White/Clothing/OuterClothing/Vests/webvestsynd.rsi ##WD EDIT
   - type: Armor
     modifiers:
       coefficients:
